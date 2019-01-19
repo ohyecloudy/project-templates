@@ -1,0 +1,11 @@
+# -*- mode: org -*-
+# -*- coding: utf-8 -*-
+#+TITLE: project templates
+#+AUTHOR: Jongbin Oh
+#+EMAIL: ohyecloudy@gmail.com
+
+프로젝트 공통으로 작성하는 README, CHANGELOG를 포함해 프로젝트를 진행할 때마다 언어 별로 공통으로 작성하는 설정 모음.
+
+** 공통
+   - readme - [[common/README.org]]
+   - changelog - [[common/CHANGELOG.org]]
