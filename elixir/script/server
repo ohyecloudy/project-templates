@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# script/server: Launch the application and any extra required processes
+#                locally.
+# https://github.com/github/scripts-to-rule-them-all
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/update
+
+mix run --no-halt

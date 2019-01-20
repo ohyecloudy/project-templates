@@ -1,0 +1,14 @@
+# -*- mode: org -*-
+# -*- coding: utf-8 -*-
+#+TITLE: elixir templates
+#+AUTHOR: Jongbin Oh
+#+EMAIL: ohyecloudy@gmail.com
+
+elixir 프로젝트 템플릿
+
+** [[script/]]
+   설치, 실행, 테스트 등을 동작하는 코드로 문서화한 스크립트 모음. [[https://github.com/github/scripts-to-rule-them-all][github/scripts-to-rule-them-all]] 프로젝트를 보고 정규화했다.
+** [[./Dockerfile]]
+   [[https://hub.docker.com/_/elixir][elixir 이미지]]로 [[script/server]] 스크립트를 실행한다
+** [[./.travis.yml]]
+   [[https://travis-ci.org/][travis ci]] 설정 파일

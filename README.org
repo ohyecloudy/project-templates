@@ -9,3 +9,5 @@
 ** 공통
    - readme - [[common/README.org]]
    - changelog - [[common/CHANGELOG.org]]
+** [[elixir/]]
+   elixir 프로젝트에 사용하는 스크립트와 문서 템플릿

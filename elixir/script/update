@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# script/update: Update application to run for its current checkout.
+# https://github.com/github/scripts-to-rule-them-all
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/bootstrap
+
+echo "==> Updating db…"
+mix do ecto.create, ecto.migrate

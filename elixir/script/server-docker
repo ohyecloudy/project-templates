@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+timezone=${1:-Asia/Seoul}
+project=PROJECT_NAME
+
+echo "==> Building a docker image..."
+docker build -t ${project}:latest .
+
+echo "==> Running a docker container..."
+docker run -d -e "TZ=$timezone" --name ${project} ${project}:latest

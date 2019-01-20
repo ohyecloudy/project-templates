@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# script/test: Run test suite for application. Optionally pass in a path to an
+#              individual test file to run a single test.
+# https://github.com/github/scripts-to-rule-them-all
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/update
+
+echo "==> Running dialyzer..."
+
+mix dialyzer --halt-exit-status
+
+echo "==> Running tests..."
+
+mix test
