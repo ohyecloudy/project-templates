@@ -1,0 +1,13 @@
+# -*- mode: org -*-
+# -*- coding: utf-8 -*-
+#+TITLE: jekyll templates
+#+AUTHOR: Jongbin Oh
+#+EMAIL: ohyecloudy@gmail.com
+
+[[https://jekyllrb.com/][jekyll]] 프로젝트 템플릿
+
+** [[script/]]
+   설치, 실행, 테스트 등을 동작하는 코드로 문서화한 스크립트 모음. [[https://github.com/github/scripts-to-rule-them-all][github/scripts-to-rule-them-all]] 프로젝트를 보고 정규화했다.
+
+   - =server= - 로컬 웹서버로 jekyll로 만든 블로그 확인
+   - =deploy= - jekyll로 만든 스태틱(static) 블로그 업로드

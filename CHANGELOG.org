@@ -23,6 +23,7 @@
     - 공통 changelog 추가
     - 공통 readme 추가
     - elixir 템플릿 추가
+    - jekyll 템플릿 추가
 ** References
    - [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]]
    - [[https://get.todoist.help/hc/en-us/articles/115005442125-Web-application][Todoist for Web Changelog]]

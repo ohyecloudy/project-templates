@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+scp_target=$1
+password=$2
+
+script/build
+cd _site
+
+expect <<EOF
+    set timeout 6000
+    spawn scp -rv . $scp_target
+    expect "password:"
+    send "$password\n"
+    expect eof
+EOF
