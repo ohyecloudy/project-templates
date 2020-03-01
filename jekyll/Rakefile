@@ -38,6 +38,7 @@ task :post do
     post.puts "- "
     post.puts "tags:"
     post.puts "- "
+    post.puts "image: /assets/#{default_img_name}"
     post.puts "---"
     post.puts ""
     post.puts "#+BEGIN_HTML"
