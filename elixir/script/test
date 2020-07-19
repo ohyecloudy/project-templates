@@ -12,7 +12,7 @@ script/update
 
 echo "==> Running dialyzer..."
 
-mix dialyzer --halt-exit-status
+mix dialyzer
 
 echo "==> Running tests..."
 
