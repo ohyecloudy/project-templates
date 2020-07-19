@@ -17,3 +17,8 @@ elixir 프로젝트 템플릿
 ** [[./.travis.yml]]
 
    [[https://travis-ci.org/][travis ci]] 설정 파일
+
+** 추가 패키지
+
+   - [[https://github.com/jeremyjh/dialyxir][dialyxir]]
+   - [[https://github.com/getsentry/sentry-elixir][sentry]]
